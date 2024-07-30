@@ -44,7 +44,7 @@ See a live deployment at: https://zenstack-todo-nuxt.vercel.app/.
 1. Generate server and client-side code from model
 
     ```bash
-    npm run zenstack:generate
+    npm run zenstack:gen
     ```
 
 1. Synchronize database schema
