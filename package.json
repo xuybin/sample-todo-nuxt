@@ -11,7 +11,7 @@
         "generate": "nuxt generate",
         "preview": "nuxt preview",
         "postinstall": "nuxt prepare",
-        "package-clean": "npm rm zenstack @zenstackhq/runtime @zenstackhq/server @zenstackhq/tanstack-query",
+        "package-clean": "npm rm zenstack @zenstackhq/runtime @zenstackhq/server ",
         "up": "npm run package-clean && npm install -D zenstack@latest && npm install @zenstackhq/runtime@latest @zenstackhq/server@latest @zenstackhq/tanstack-query@latest",
         "up-preview": "npm run package-clean && npm install --registry https://preview.registry.zenstack.dev -D zenstack@latest && npm install --registry https://preview.registry.zenstack.dev @zenstackhq/runtime@latest @zenstackhq/server@latest @zenstackhq/tanstack-query@latest"
     },
